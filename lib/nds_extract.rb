@@ -27,7 +27,7 @@ end
 def list_of_directors(source)
   director = []
   director_index = 0
-    director = source[0][:name], source[1], source[2], source[3]
+    director = source[0][:name], source[1][:name], source[2][:name], source[3][:name]
   
 end
 
